@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/warsaw-expo/static/css/main.137ac069.chunk.css",
-    "main.js": "/warsaw-expo/static/js/main.a2a08768.chunk.js",
-    "main.js.map": "/warsaw-expo/static/js/main.a2a08768.chunk.js.map",
+    "main.css": "/warsaw-expo/static/css/main.aaf75694.chunk.css",
+    "main.js": "/warsaw-expo/static/js/main.8692f9ae.chunk.js",
+    "main.js.map": "/warsaw-expo/static/js/main.8692f9ae.chunk.js.map",
     "runtime-main.js": "/warsaw-expo/static/js/runtime-main.ef212f76.js",
     "runtime-main.js.map": "/warsaw-expo/static/js/runtime-main.ef212f76.js.map",
-    "static/js/2.1d060dd6.chunk.js": "/warsaw-expo/static/js/2.1d060dd6.chunk.js",
-    "static/js/2.1d060dd6.chunk.js.map": "/warsaw-expo/static/js/2.1d060dd6.chunk.js.map",
+    "static/js/2.02acad6c.chunk.js": "/warsaw-expo/static/js/2.02acad6c.chunk.js",
+    "static/js/2.02acad6c.chunk.js.map": "/warsaw-expo/static/js/2.02acad6c.chunk.js.map",
     "index.html": "/warsaw-expo/index.html",
-    "static/css/main.137ac069.chunk.css.map": "/warsaw-expo/static/css/main.137ac069.chunk.css.map",
-    "static/js/2.1d060dd6.chunk.js.LICENSE.txt": "/warsaw-expo/static/js/2.1d060dd6.chunk.js.LICENSE.txt"
+    "static/css/main.aaf75694.chunk.css.map": "/warsaw-expo/static/css/main.aaf75694.chunk.css.map",
+    "static/js/2.02acad6c.chunk.js.LICENSE.txt": "/warsaw-expo/static/js/2.02acad6c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ef212f76.js",
-    "static/js/2.1d060dd6.chunk.js",
-    "static/css/main.137ac069.chunk.css",
-    "static/js/main.a2a08768.chunk.js"
+    "static/js/2.02acad6c.chunk.js",
+    "static/css/main.aaf75694.chunk.css",
+    "static/js/main.8692f9ae.chunk.js"
   ]
 }
