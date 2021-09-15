@@ -1,0 +1,24 @@
+.container {
+  height: 60rem;
+  width: 95%;
+  &-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    overflow-y: scroll;
+    max-height: 80%;
+    justify-content: center;
+    outline: none;
+    &::-webkit-scrollbar {
+      width: 0.3rem;
+      background-color: #aaa;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #000;
+    }
+  }
+
+}
+

@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import './App.scss'
+import ToDoList from './components/ToDoList/ToDoList'
+import Menu from './components/ToDoList/Menu'
 
-function App() {
+function App () {
+  const [create3kElements, setCreate3kElements] = useState(false)
+  const handleOnCreate3kElements = () => {
+    setCreate3kElements(!create3kElements)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='app'>
+      <header className='app-header'>
+        This is recruitment task for Warsaw-Expo company.
       </header>
+      <Menu create3kElements={handleOnCreate3kElements} />
+
+      <ToDoList create3kElements={create3kElements} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

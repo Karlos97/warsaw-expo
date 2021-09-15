@@ -1,0 +1,96 @@
+$button-normal: #b197fc;
+$button-normal-hover: #9775fa;
+
+$button-checkmark: #ffec99;
+$button-checkmark-hover: #12b886;
+$button-tick: #ccc;
+$button-tick-hover: #c0eb75;
+
+$note-checked: #12b886;
+
+$button-delete-hover: red;
+
+.button {
+  &-normal {
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: $button-normal;
+    color: white;
+    border-color: $button-normal;
+    &:hover {
+      background-color: $button-normal-hover;
+      color: white;
+      border-color: $button-normal-hover;
+      transform: scale(1.05);
+    }
+  }
+  &-delete {
+    display: flex;
+    align-self: flex-end;
+    padding-top: 0.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    background-color: $button-checkmark;
+    border-color: $button-checkmark;
+    color: $button-tick;
+    margin-right: 0.1rem;
+    & > p {
+      font-size: 1.4rem;
+      font-weight: bold;
+      transform: translate(-0.25rem, -1.8rem);
+    }
+    &-unchecked {
+      background-color: $button-checkmark;
+      border-color: $button-checkmark;
+    }
+    &-checked {
+      background-color: $note-checked;
+      border-color: $note-checked;
+    }
+    &:hover {
+      background-color: $button-delete-hover;
+      border-color: $button-delete-hover;
+    }
+  }
+  &-checkmark {
+    display: flex;
+    align-self: flex-end;
+    padding-top: 0.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $button-checkmark-hover;
+      border-color: $button-checkmark-hover;
+    }
+    &-unchecked {
+      background-color: $button-checkmark;
+      border-color: $button-checkmark;
+    }
+    &-checked {
+      background-color: $note-checked;
+      border-color: $note-checked;
+    }
+
+    &-stem {
+      width: 0.25rem;
+      height: 0.9rem;
+      background-color: $button-tick;
+      transform: translateX(0.3rem) rotate(45deg);
+      -webkit-transform: translateX(0.3rem) rotate(45deg);
+    }
+
+    &-kick {
+      width: 0.25rem;
+      height: 0.6rem;
+      background-color: $button-tick;
+      transform: translate(-0.1rem, -0.7rem) rotate(-45deg);
+      -webkit-transform: translate(-0.1rem, -0.7rem) rotate(-45deg);
+    }
+  }
+}

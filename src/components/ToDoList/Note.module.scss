@@ -1,0 +1,25 @@
+.note {
+  max-width: 10rem;
+  max-height: 15rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+
+  &-unchecked {
+    background-color: #f5ece0;
+  }
+  &-checked {
+    background-color: #12b886;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
