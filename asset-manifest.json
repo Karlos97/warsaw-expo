@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/warsaw-expo/static/css/main.b46e49db.chunk.css",
-    "main.js": "/warsaw-expo/static/js/main.7094fb71.chunk.js",
-    "main.js.map": "/warsaw-expo/static/js/main.7094fb71.chunk.js.map",
+    "main.js": "/warsaw-expo/static/js/main.768a0d85.chunk.js",
+    "main.js.map": "/warsaw-expo/static/js/main.768a0d85.chunk.js.map",
     "runtime-main.js": "/warsaw-expo/static/js/runtime-main.ef212f76.js",
     "runtime-main.js.map": "/warsaw-expo/static/js/runtime-main.ef212f76.js.map",
     "static/js/2.02acad6c.chunk.js": "/warsaw-expo/static/js/2.02acad6c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ef212f76.js",
     "static/js/2.02acad6c.chunk.js",
     "static/css/main.b46e49db.chunk.css",
-    "static/js/main.7094fb71.chunk.js"
+    "static/js/main.768a0d85.chunk.js"
   ]
 }
